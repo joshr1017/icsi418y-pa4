@@ -1,16 +1,28 @@
-# React + Vite
+# Project Management System (PA2)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Project Overview
 
-Currently, two official plugins are available:
+This project is a web-based Project Management System that allows users to create and manage projects, organize user stories, and assign team members.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Features
 
-## React Compiler
+- Create and manage projects.
+- Add and remove project members.
+- Create user stories with titles, descriptions, and priorities.
+- Assign user stories to project members.
+- Edit and delete user stories.
+- Manage user story statuses.
+- View project backlogs.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Technologies Used
 
-## Expanding the ESLint configuration
+- React
+- JavaScript
+- Node.js
+- Express
+- MongoDB
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Running the Application
+
+Run the frontend (client) and backend (server) using their respective development commands.
+
